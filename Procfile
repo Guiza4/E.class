@@ -1,0 +1,1 @@
+web: gunicorn Eclass.wsgi --log-file -
