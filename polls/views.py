@@ -5,6 +5,7 @@ from django.views import generic
 from django.utils import timezone
 
 
+
 from .models import Choice, Question
 
 class IndexView(generic.ListView):
